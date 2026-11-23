@@ -1,0 +1,64 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.env
+
+# Node / Frontend
+node_modules/
+.next/
+dist/
+build/
+
+# Databases
+*.db
+*.sqlite
+
+# Output and reports
+output/
+# If you want to ignore all json/md in specific folders, do that instead of global
+# results/*.json
+# reports/*.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python test cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and Debug
+*.log
+lint.txt
+ts_errors.txt
+routes_debug.txt
+routes.json
+routes_debug.json
+
+# Misc
+*.bak
+*.tmp
+
+# Workspace specific
+LangChain-RAG/
+test_mcp.py
+.gemini/
+data/vector_dbs/
+rag_error.txt
+test_out.txt
+test_rag.py
+
